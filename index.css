@@ -1,0 +1,41 @@
+#f1{
+    height: 200px;
+    width: 200px;
+    border: 10px dotted cornflowerblue;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    animation: spin 5s linear 0s infinite normal;
+}
+#f2{
+    height: 100px;
+    width: 100px;
+    border: 10px dotted blueviolet;
+    border-radius: 50%;
+    position: inherit;
+    animation: spin2
+     2s linear 0s infinite normal;
+}
+@keyframes spin{
+    0%{
+        rotat:0deg;
+    }
+    100%{
+        rotate:360deg;
+    }
+    
+}
+@keyframes spin2{
+    0%{
+        rotat:0deg;
+    }
+    100%{
+        rotate:-360deg;
+    }
+    
+}
+
